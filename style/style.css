@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+html, body{width: 100%; height: 100%; font-family: 'Noto Sans KR', sans-serif;}
+.n{-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
+.wrap{min-width: 1200px; width: 95%; margin: auto;}
+.bgC{background-repeat: no-repeat; background-position: center; background-size: contain;}
+.bgV{background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+#index{display: grid; grid-template-columns: 1fr 450px;}
+#index > *{height: 100vh; position: relative;}
+#index > #user{background-color: #212121;}
+#index > #user > #logo{width: 100%; height: auto;}
+#index > #user > #logo img{width: 325px; margin: 30px 62.5px 25px 62.5px;}
+#index > #user > form{width: 100%; height: 110px; padding: 0 40px;}
+#index > #user > form > div.user-infor{width: 100%; margin: 10px 0; position: relative; border-radius: 30px; overflow-X: hidden;}
+#index > #user > form > div.user-infor::before{content: "아이디"; color: white; position: absolute; width: 75px; text-align: center; line-height: 30px; height: 30px; left: 0; top: 0; background-color: #FF613A;}
+#index > #user > form > div.user-infor:nth-child(2)::before{content: "비밀번호";}
+#index > #user > form > div > input{width: 100%; height: 30px; border: none; padding-left: 80px; }
+#index > #user > form > div > input:focus{outline: none;}
+#index > #user > form > div:nth-child(3){font-size: 10px; float: left;}
+#index > #user > form > div:nth-child(3) > a{color: #ffffff;}
+#index > #user > form > div:last-child{float: right; width: 120px; height: 30px;}
+#index > #user > form > div:last-child > input{background-color: #FF613A; color: white; border-radius: 30px; padding: 0;}
+
