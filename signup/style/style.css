@@ -1,0 +1,23 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+html, body{width: 100%; height: 100%; font-family: 'Noto Sans KR', sans-serif; overflow: hidden;}
+.n{-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
+.bgC{background-repeat: no-repeat; background-position: center; background-size: contain;}
+.bgV{background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+.wrap{width: 840px; height: 100%; position: relative; margin: auto;}
+.wrap > #logo_wrap{width: 400px; height: 100%; float: left; position: relative;}
+.wrap > #logo_wrap > #logo{width: 100%; height: 400px; background-color: #FF613A; border-radius: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.wrap > #logo_wrap > #logo > img{height: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.wrap > #logo_wrap > #liner{width: 100px; height: 150vh; background-color: #dddddd; border: 2px solid #FF613A;
+position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(14deg); z-index: -1;}
+.wrap > form{width: 500px; height: auto; float: right; position: absolute; top: 50%; left: 570px; transform: translate(-50%, -50%); z-index: -1;}
+.wrap > form > h1{padding-left: 100px; color: #FF613A;}
+.wrap > form > input.user-infor:nth-child(2){width: 80%; height: 30px; padding-left: 30px; position: relative; border-radius: 30px; overflow-X: hidden; box-shadow:  5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;}
+.wrap > form > input.user-infor:not(:nth-child(2)){padding-left: 130px;}
+.wrap > form > input.user-infor{width: 100%; height: 30px; float: right; margin: 5px 0; padding-left: 30px; border: 1px solid #b4b4b4; position: relative; border-radius: 30px; overflow-X: hidden; box-shadow:  5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff;}
+.wrap > form > input:focus{outline: none;}
+.wrap > form input[type="submit"]{background-color: #FF613A; color: white; border: none; float: right; width: 120px; height: 30px; border-radius: 30px; padding: 0;}
+
+

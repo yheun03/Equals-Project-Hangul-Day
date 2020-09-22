@@ -16,22 +16,20 @@
     <!-- <link rel="stylesheet" media="screen and (min-width: 1300px)" href="./style/style.css"> -->
 </head>
 <body class="day n">
-    <div id="index">
-        <div>
-
-        </div>
-        <div id="user">
-            <div id="logo"><a href="/"><img src="./img/logo.png" alt=""></a></div>
-            <form action="#" method="get" autocomplete="off">
-                <div class="user-infor"><input type="text" name="id" placeholder="아이디를 입력해주세요."></div>
-                <div class="user-infor"><input type="password" name="pw" placeholder="비밀번호를 입력해주세요."></div>
-                <div><a href="#">계정이 없으신가요?</a></div>
-                <div><input type="submit" value="로그인"></div>
-            </form>
-            <div id="rank">
-                순위표
+    <div class="wrap">
+        <div id="logo_wrap">
+            <div id="logo">
+                <img src="./img/logo.png" alt="">
             </div>
+            <div id="liner"></div>
         </div>
+        <form action="#" method="get" autocomplete="off">
+            <h1>회원가입</h1>
+            <input class="user-infor" type="text" name="nm" placeholder="닉네임">
+            <input class="user-infor" type="text" name="id" placeholder="아이디">
+            <input class="user-infor" type="password" name="pw" placeholder="비밀번호">
+            <div><input type="submit" value="회원가입"></div>
+        </form>
     </div>
 </body>
 </html>
