@@ -1,10 +1,16 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 a{text-decoration: none;}
 li{list-style: none;}
-html, body{width: 100%; height: 100%; font-family: 'Noto Sans KR', sans-serif; overflow: hidden;}
+html, body{width: 100%; height: 100%; font-family: 'Noto Sans KR', sans-serif; overflow: hidden; background-image: url("../img/bg.png"); z-index: -10;}
 .n{-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml-user-select: none; user-select:none;}
 .bgC{background-repeat: no-repeat; background-position: center; background-size: contain;}
 .bgV{background-repeat: no-repeat; background-position: center; background-size: cover;}
 
-#result{width: 700px; height: 700px; background-color: azure; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; border: 2px solid #FF613A}
-#liner{width: 100%; height: 100px; background-color: #FF613A; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1;}
+#result{width: 700px; height: 700px; padding: 100px 75px; background-color: #F0F0F0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%; border: 2px solid #FF613A; z-index: 10;}
+#result > *{text-align: center;}
+#result > h2{font-size: 80px; letter-spacing: -7.5px; padding-top: 30px;}
+#result > p{font-size: 80px; letter-spacing: -7.5px; line-height: 200px;}
+#result > p > span{font-size: 200px; font-weight: 900;}
+#result > div{width: 400px; margin: auto;}
+#result > div > a{display: block; width: 400px; line-height: 30px; color: white; font-weight: 700; text-align: center; background-color: #FF613A; border-radius: 30px; margin: 10px 0;}
+#liner{width: 100%; height: 100px; background-color: #FF613A; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;}
