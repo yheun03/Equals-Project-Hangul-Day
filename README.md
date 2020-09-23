@@ -1,1 +1,1 @@
-# Equals-Project-Hangul-Dayhttps://github.com/yheun03/Equals-Project-Hangul-Day
+# result폴더 x
